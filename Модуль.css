@@ -1,0 +1,76 @@
+.cl1{
+	position: relative;
+	width: 100px;
+	height: 100px;
+	background: red;
+	bottom: 5px;
+	right: 5px;
+}
+.cl2{
+	position:relative;
+	width: 100px;
+	height: 100px;
+	background: brown;
+	bottom: 50px;
+	right: -50px;
+}
+.cl3{
+	position:relative;
+	width: 100px;
+	height: 100px;
+	background: #3e1a12;
+	bottom: 100px;
+	right: -100px;
+}
+.cl{
+	position:relative;
+	width: 350px;
+	height: 150px;
+	background: pink;
+	bottom: 50px;
+	right: -10px;
+}
+.cl4{
+	position:relative;
+	width: 100px;
+	height: 100px;
+	background: green;
+	bottom: -20px;
+	right: -20px;
+	float:left;
+}
+.cl5{
+	position:relative;
+	width: 100px;
+	height: 100px;
+	background: white;
+	bottom: -20px;
+	right: -100px;
+	margin-left: 20px;
+}
+.cl6{
+	position:relative;
+	width: 100px;
+	height: 100px;
+	background: orange;
+	bottom: 80px;
+	right: -220px;
+}
+
+ @media screen and (max-width: 600px) {
+  .cl1{
+ 	width: 0;
+ 	height: 0;
+ 	border-bottom: 100px solid black;
+ 	border-right:0px solid transparent;
+ 	border-top: 50px solid transparent;
+ 	border-left: 50px solid transparent;
+    }
+ }
+
+@media (orientation: portrait) {
+ .cl2{
+ 	border-radius: 100%;
+    }
+}
+
